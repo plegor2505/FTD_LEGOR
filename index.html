@@ -1,0 +1,106 @@
+<!DOCTYPE html><!-- tipo de documento -->
+<html lang="en"><!-- etiqueta inicial con el atributo que determina el lenguaje del codigo -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROYECTO FTD_LEGORBURU</title>
+    <!--inicio de links de estilos-->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html"><img src="./logosIconos/Logo FTD_4.png" alt="logo fundaciontd"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                    <a class="nav-link texto1" aria-current="page" href="./index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link texto1" href="./pages/quienessomos.html">Quiénes Somos</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle texto1" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Qué Hacemos</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item texto2" href="./pages/prog-y-serv.html">Programas y Servicios</a></li>
+                        <li><a class="dropdown-item texto2" href="./pages/publicaciones.html">Publicaciones</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item texto2" href="./pages/observatorio.html">Observatorio</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link texto1" href="./pages/contactanos.html">Contactanos</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control texto3" type="search" placeholder="      escribe lo que buscas" aria-label="Search">
+                  <button class="btn btnBuscar" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="col-12">
+            <h1 class="titPrincipal">Fundación para la Transformación Digital</h1>
+        </div>
+        <div id="subrayado"></div>
+        <div imgCuerpo>
+            <img src="./imgFoto/Cuerpo Inicial.png" width=100% height=450px alt="img bg main inicio">
+        </div>     
+        <div id="subrayado"></div>
+    </main>
+    <footer class="Container">
+        <div class="row">
+            <div class="col-sm-12 col-lg-4 bg-transparent mx-auto contenido">
+                <h3>Contenido</h3>
+                <br>
+                <a href="./index.html" class="menuContenido">Inicio</a>
+                <a href="./pages/quienessomos.html" class="menuContenido">Quiénes somos</a>
+                <a href="./pages/quehacemos.html" class="menuContenido">Qué hacemos</a>
+                <a href="./pages/contactanos.html" class="menuContenido">Contactanos</a>
+            </div>
+            <div class="col-sm-12 col-lg-4 p-3 bg-transparent mx-auto contactos">
+                <h3>Contactos</h3>
+                <br>
+                <img src="./logosIconos/logo mail.png" width=30px height=30px alt="logoMail">
+                <h5 class="menuContactos">info@fundaciontd.org.ar</h5>
+                <img src="./logosIconos/location-3.png" width=30px height=30px alt="logoLocation">
+                <h5 class="menuContactos">Arévalo 625 - CABA</h5>
+                <img src="./logosIconos/telefono.png" width=30px height=30px alt="logTel">
+                <h5 class="menuContactos">+ 549 11 7654-3210</h5>
+            </div>
+            <div class="bg-transparent text-light mx-auto redes"></div>
+                <h3>Redes sociales</h3>
+                <br>
+                <div class="col-sm-12 col-lg-4 p-3 bg-transparent mx-auto text-light redes">
+                    <a href="http://www.facebook.com/" target="_blank"></a>
+                    <img src="./logosIconos/logo fbk.png" width=30px height=30px alt="logo facebook">
+                    <a href="http://www.instagram.com/" target="_blank"></a>
+                    <img src="./logosIconos/logo Igram.png" width=30px height=30px alt="logo instagram">
+                    <a href="http://www.twitter.com/" target="_blank"></a>
+                    <img src="./logosIconos/logo twt.png" width=30px height=30px alt="logo twitter">
+                    <a href="http://www.youtube.com" target="_blank"></a>
+                    <img src="./logosIconos/logo ytube.png" width=30px height=30px alt="logo whatsapp"></a>
+                </div>
+            </div>
+        <div class="row">
+            <div class="col-12 p-3 bg-transparent">
+                 <h3 class="pLeg">Fundación para la Transformación Digital © 2022 - Todos los derechos reservados</h3> 
+            </div>
+        </div>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
