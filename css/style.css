@@ -101,7 +101,7 @@ margin-bottom: 25px;
 }
 /*FIN CSS FOOTER*/
 
-/*CSS PAGINA INICIO*/
+/*CSS MAIN PAGE INICIO*/
 .titPrincipal{
     color: burlywood;
     font-size: 60px;
@@ -126,20 +126,20 @@ margin-bottom: 25px;
     67%{background-color:chartreuse;}
     100%{background-color: burlywood;}
 }
-/*FIN CC PAGINA INICIO*/
+/*FIN CSS MAIN PAGE INICIO*/
 
-/* ESTILOS GENERALES PARA TODAS LAS PAGES - A REVISAR */
+/* CSS GENERALES MAIN TODAS LAS PAGES */
 .titulo{
-    font-size: 50px;
+    font-size: 55px;
     font-weight:bold;
     color:burlywood;
-    text-align: left;
-    margin-top: 100px;
-    margin-left: 50px; 
+    margin-top: 2.5rem;
+    margin-left: 3rem;
 }
 
-/*ESTILOS PAGINA QUIENES SOMOS*/
-.section1Container{
+/* CSS MAIN PAGE QUIENES SOMOS */
+/*
+.container{
     display: grid;
     grid-template-columns: repeat(3, 1250px);
     grid-template-rows: auto;
@@ -156,7 +156,7 @@ margin-bottom: 25px;
     margin: 0px 30px 0px 50px;
     background-color: blanchedalmond;
     border-radius: 10px;
-}
+}*/
 .subtitulo1{
     grid-area: subtitulo1;
     display: flex;
@@ -302,6 +302,27 @@ margin-bottom: 25px;
     margin-right: 20px;
     margin-top: 20px;
 }
+.presidente{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.directores{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;  
+}
+.directores1{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around   
+
+}
+.integrantes{
+    font-size: x-large;
+    font-weight: bold;
+    color: rgb(33, 11, 238);
+}
 
 /* buscar los iconos para cada uno de los valores y reformular diseño*/
 .valores{
@@ -311,21 +332,19 @@ margin-bottom: 25px;
 }
 
 /* agregar fotos de cada integrante y cuadro para que abra a la Bio de c/u */
-.integrantes{
-    font-size: larger;
-    color: white;
-    line-height: 2;   
-}
 
-/* CSS PAGINA PUBLICACIONES */
-.titPublicaciones{
-    font-size: 55px;
-    font-weight:bold;
-    color:burlywood;
-    margin-top: 2.5rem;
-    margin-left: 2rem;
-}
-.bajada{
+/* FIN CSS MAIN PAGE QUIENES SOMOS */
+
+
+
+/* CSS MAIN PAGE PROGRAMAS Y SERVICIOS */
+
+/* FIN CSS MAIN PAGE PROGRAMAS Y PUBLICACIONES */
+
+
+
+/* CSS MAIN PAGE PUBLICACIONES */
+.bajada1{
     font-size: 30px;
     text-align: justify;
     color: white;
@@ -379,9 +398,23 @@ height: auto;
     line-height: 1.3;
     color:white;
 }
-/* FIN CSS PAGINA PUBLICACIONES */
+/* FIN CSS MAIN PAGE PUBLICACIONES */
 
-/* CSS PAGINA CONTACTANOS */
+/* CSS MAIN PAGE OBSERVATORIO */
+.bajada2{
+    font-size: 30px;
+    text-align: justify;
+    color: white;
+    line-height: 1.4;
+    padding-bottom: 1rem ;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-bottom: solid 1px white;
+}
+
+/* FIN CSS MAIN PAGE OBSERVATORIO */
+
+/* CSS MAIN PAGE CONTACTANOS */
 .titContactanos{
     font-size: 40px;
     font-weight:bold;
@@ -407,14 +440,15 @@ height: auto;
     color:#163172;
     margin: 5px 5px;
 }
-/* FIN CSS PAGINA CONTACTOS */
+/* FIN CSS MAIN PAGE CONTACTANOS */
 
-/*OTROS ESTILOS PARA EL RESTO DE LAS PAGINAS NO MODIFICADOS POR AHORA*/
+
+/*OTROS CSS MAIN RESTO DE LAS PAGES - NO MODIFICADOS POR AHORA - A REVISAR */
+/*
 .subtitulo{
-    background-color:darksalmon;
+    background-color:#D6E4F0;
     color: rgb(3, 46, 70);
     font-size: larger;
-    font-family: 'Times New Roman';
     padding: 15px;
     border: double 5px white ;
     margin: 20px;
@@ -460,6 +494,8 @@ height: auto;
     text-decoration: underline;
 }
 /*FIN OTRAS PAGINAS*/
+
+
 
 /*ESTILOS RESPONSIVE*/
 /*
