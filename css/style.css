@@ -54,50 +54,58 @@ a{
 /* FIN CSS HEADER */
 
 /* CSS FOOTER - REPITE EN TODAS LAS PAGINAS */
+.linea{
+    color:#D6E4F0;
+    width: 100%;
+}
 .contenido{
     display: flex;
     flex-direction: column;
-    padding-top: 10px;
-    margin-top: 5px;
+    padding-top: 1rem;
+    margin-left: 320px;
     color: #f6f6f6;
     font-weight: bold;
 }
-.menuContenido{
+.contenido a{ 
     color: white;
-    font-size:x-large;
+    font-size:1.3rem;
     font-weight:normal;
-    margin-left: 20px;
-    margin-bottom: 10px;
+    line-height: 2;
+    margin-left: 1rem;
 }
 .contactos{
     display: flex;
     flex-direction: column;
-    padding-top: 10px;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
     color: #f6f6f6;
     font-weight: bold;
 }
-.menuContactos{
-margin-top: 10px;
-margin-bottom: 25px;
+.contactos h5{
+    line-height: 1.5;
 }
+/*
 .redes{
     display: flex;
     flex-direction: column;
-    background-color: antiquewhite;
-    justify-items: center;
-    align-content: space-around;
-    color: white;
-
+    padding-top: 2rem;
+    color:#f6f6f6;
 }
-.pLeg{
+.redes a{
     display: flex;
-    background-color:black;
+    flex-direction: column;
+    line-height: 2;
+    margin-left: 1rem;
+}
+*/
+.legales{
+    display: flex;
     justify-content:center;
     align-items:center;
-    padding: 20px 0px;
-    font-size:large;
+    font-size:x-small;
     font-weight: bold;
-    color:white;
+    color:#f6f6f6;
 }
 /*FIN CSS FOOTER*/
 
@@ -350,7 +358,7 @@ margin-bottom: 25px;
     color: white;
     line-height: 1.4;
     padding-bottom: 1rem ;
-    margin-left: 2rem;
+    margin-left: 3rem;
     margin-right: 2rem;
     border-bottom: solid 1px white;
 }
@@ -358,10 +366,11 @@ margin-bottom: 25px;
 width: 40%;
 height: auto;
 }
-.formulario{
-    /* privisorio hasta solucionar row*/
+/*.formulario{
+   privisorio hasta solucionar row
     background-color: #1E56A0;
 }
+*/
 .titFormSus{
     color:burlywood;
     font-weight: bold;
@@ -389,11 +398,12 @@ height: auto;
 }
 .ilustracion{
     padding: 10px 10px;
-    background-color: blanchedalmond;
+    /*background-color: blanchedalmond;
     border: solid 2px #1E56A0;
+    */
 }
 .parrafo{
-    font-size: x-large;
+    font-size: xx-large;
     text-align: justify;
     line-height: 1.3;
     color:white;
@@ -407,7 +417,7 @@ height: auto;
     color: white;
     line-height: 1.4;
     padding-bottom: 1rem ;
-    margin-left: 2rem;
+    margin-left: 3rem;
     margin-right: 2rem;
     border-bottom: solid 1px white;
 }
