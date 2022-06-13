@@ -1,5 +1,22 @@
 @import "./Utilities/variables";
 @import "./Base/settings";
+@mixin titulo(){
+    font-size: 55px;
+        font-weight:bold;
+        color: $color3;
+        margin-top: 2rem;
+        margin-left: 3rem; 
+}
+@mixin bajada(){
+    font-size: 30px;
+    text-align: justify;
+    color: $color5;
+    line-height: 1.4;
+    padding-bottom: 1rem ;
+    margin-left: 3rem;
+    margin-right: 2rem;
+    border-bottom: solid 1px $color5;
+}
 @import "./Layout/header";
 @import "./Layout/footer";
 @import "./Layout/mainInicio";
@@ -8,14 +25,3 @@
 @import "./Layout/mainPubli";
 @import "./Layout/mainObserv";
 @import "./Layout/contactanos";
-
-
-/* CSS GENERALES MAIN TODAS LAS PAGES */
-
-    .titulo{
-       font-size: 55px;
-        font-weight:bold;
-        color: burlywood;
-        margin-top: 2rem;
-        margin-left: 3rem; 
-    }

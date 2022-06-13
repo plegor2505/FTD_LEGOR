@@ -1,10 +1,6 @@
-.bajada2{
-    font-size: 30px;
-    text-align: justify;
-    color: white;
-    line-height: 1.4;
-    padding-bottom: 1rem ;
-    margin-left: 3rem;
-    margin-right: 2rem;
-    border-bottom: solid 1px white;
+.titulo{
+   @include titulo();
+}
+.bajada{
+   @include bajada();
 }

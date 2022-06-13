@@ -1,5 +1,5 @@
 .linea{
-    color:#D6E4F0;
+    color: $color4;
     width: 100%;
 }
 .contenido{
@@ -7,11 +7,11 @@
     flex-direction: column;
     padding-top: 1rem;
     margin-left: 320px;
-    color: #f6f6f6;
+    color: $color5;
     font-weight: bold;
 }
 .contenido a{ 
-    color: white;
+    color: $color5;
     font-size:1.3rem;
     font-weight:normal;
     line-height: 2;
@@ -23,7 +23,7 @@
     padding-top: 1rem;
     display: flex;
     flex-direction: column;
-    color: #f6f6f6;
+    color: $color5;
     font-weight: bold;
 }
 .contactos h5{
@@ -49,5 +49,5 @@
     align-items:center;
     font-size:x-small;
     font-weight: bold;
-    color:#f6f6f6;
+    color: $color5;
 }
