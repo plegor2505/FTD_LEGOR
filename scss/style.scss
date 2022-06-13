@@ -1,0 +1,21 @@
+@import "./Utilities/variables";
+@import "./Base/settings";
+@import "./Layout/header";
+@import "./Layout/footer";
+@import "./Layout/mainInicio";
+@import "./Layout/mainQsomos";
+@import "./Layout/mainPyS";
+@import "./Layout/mainPubli";
+@import "./Layout/mainObserv";
+@import "./Layout/contactanos";
+
+
+/* CSS GENERALES MAIN TODAS LAS PAGES */
+
+    .titulo{
+       font-size: 55px;
+        font-weight:bold;
+        color: burlywood;
+        margin-top: 2rem;
+        margin-left: 3rem; 
+    }
